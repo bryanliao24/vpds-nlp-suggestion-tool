@@ -1,0 +1,103 @@
+/* App.css */
+.full-screen {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.app-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 32px auto;
+  padding: 0 24px 32px;
+}
+
+/* Grid composition */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.prompt-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.card-fixed-height {
+  min-height: 100px;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  max-width: 800px; /* Limit the maximum width to prevent the left side from crowding out the right side */
+  box-sizing: border-box;
+}
+
+/* 
+textarea { */
+  /* resize: vertical; Only up and down stretching is allowed */
+/* } */
+
+
+@media (max-width: 767px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    gap: 16px; /* Mobile gutter recommended 16px according to VISA design*/
+  }
+  .app-container {
+    padding: 0 16px 32px;
+  }
+}
+
+
+/* App.css – bottom of the file */
+.preview-wrapper {
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 24px;
+
+  /* 👇 8‑px checkerboard */
+  background-image:
+    linear-gradient(45deg, #f3f3f3 25%, transparent 25%),
+    linear-gradient(-45deg, #f3f3f3 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #f3f3f3 75%),
+    linear-gradient(-45deg, transparent 75%, #f3f3f3 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+}
+
+/* === CodeViewer ================================================= */
+.code-wrapper {
+  position: relative;          
+  width: 100%;
+}
+
+.code-block {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 0;
+  font-family: SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow: auto;              
+  max-height: 400px;
+  box-sizing: border-box;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 16px;
+  right: 40px;
+  z-index: 3;                  
+}

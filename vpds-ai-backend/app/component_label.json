@@ -1,0 +1,452 @@
+{
+  "login": [
+    {"component": "input", "label": "Username"},
+    {"component": "input", "label": "Password"},
+    {"component": "button", "label": "Log in"}
+  ],
+  "sign in": [
+    {"component": "input", "label": "Username"},
+    {"component": "input", "label": "Password"},
+    {"component": "button", "label": "Sign In"}
+  ],
+  "signin": [
+    {"component": "input", "label": "Username"},
+    {"component": "input", "label": "Password"},
+    {"component": "button", "label": "Sign In"}
+  ],
+  "sign up": [
+    {"component": "input", "label": "Name"},
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "Password"},
+    {"component": "input", "label": "Confirm Password"},
+    {"component": "checkbox", "label": "Agree to terms"},
+    {"component": "button", "label": "Sign Up"}
+  ],
+  "signup": [
+    {"component": "input", "label": "Name"},
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "Confirm Password"},
+    {"component": "checkbox", "label": "Agree to terms"},
+    {"component": "button", "label": "Sign Up"}
+  ],
+  "register form": [
+    {"component": "input", "label": "Name"},
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "Password"},
+    {"component": "checkbox", "label": "Agree to terms"},
+    {"component": "button", "label": "Register"}
+  ],
+  "remember": [
+    {"component": "checkbox", "label": "Remember me"}
+  ],
+  "forgot password": [
+    {"component": "input", "label": "Email or Username"},
+    {"component": "button", "label": "Reset Password"}
+  ],
+  "order form": [
+    {"component": "input", "label": "Name"},
+    {"component": "input", "label": "Address"},
+    {"component": "input", "label": "Phone"},
+    {"component": "select", "label": "Country"},
+    {"component": "button", "label": "Submit Order"}
+  ],
+  "checkout": [
+    {"component": "input", "label": "Billing Address"},
+    {"component": "input", "label": "Shipping Address"},
+    {"component": "checkbox", "label": "Use same as billing"},
+    {"component": "button", "label": "Checkout"}
+  ],
+  "payment": [
+    {"component": "input", "label": "Credit Card Number"},
+    {"component": "input", "label": "Expiry Date"},
+    {"component": "radio", "label": "Billing Address Option"},
+    {"component": "button", "label": "Pay Now"}
+  ],
+  "feedback": [
+    {"component": "input", "label": "Your feedback"},
+    {"component": "button", "label": "Submit"}
+  ],
+  "survey": [
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "Your feedback"},
+    {"component": "multiselect", "label": ""},
+    {"component": "multiselect", "label": ""},
+    {"component": "button", "label": "Submit"}
+  ],
+  "support": [
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "Your feedback"},
+    {"component": "multiselect", "label": ""},
+    {"component": "button", "label": "Submit"}
+  ],
+  "contact us": [
+    {"component": "input", "label": "Name"},
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "Message"},
+    {"component": "button", "label": "Send Message"}
+  ],
+  "contact form": [
+    {"component": "input", "label": "Name"},
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "Message"},
+    {"component": "button", "label": "Send Message"}
+  ],
+  "navigation": [
+    {"component": "horizontal-navigation", "label": ""}
+  ],
+  "nav": [
+    {"component": "horizontal-navigation", "label": ""}
+  ],
+  "navbar": [
+    {"component": "navigation-drawer", "label": ""}
+  ],
+  "sidebar": [
+    {"component": "navigation-drawer", "label": ""}
+  ],
+  "breadcrumb": [
+    {"component": "breadcrumbs", "label": ""}
+  ],
+  "breadcrumbs": [
+    {"component": "breadcrumbs", "label": ""}
+  ],
+  "tabbed interface": [
+    {"component": "tabs", "label": ""}
+  ],
+  "table": [
+    {"component": "table", "label": ""},
+    {"component": "pagination", "label": ""}
+  ],
+  "data table": [
+    {"component": "table", "label": ""},
+    {"component": "input", "label": "Filter"},
+    {"component": "button", "label": "Action"}
+  ],
+  "dashboard": [
+    {"component": "panel", "label": ""},
+    {"component": "table", "label": ""},
+    {"component": "button", "label": "action"}
+  ],
+  "progress": [
+    {"component": "progress", "label": ""}
+  ],
+  "progressbar": [
+    {"component": "progress", "label": ""}
+  ],
+  "loader": [
+    {"component": "progress", "label": ""}
+  ],
+  "loading": [
+    {"component": "progress", "label": ""}
+  ],
+  "panel": [
+    {"component": "panel", "label": ""}
+  ],
+  "date": [
+    {"component": "date-and-time-selectors", "label": ""}
+  ],
+  "datepicker": [
+    {"component": "date-and-time-selectors", "label": ""}
+  ],
+  "time": [
+    {"component": "date-and-time-selectors", "label": ""}
+  ],
+  "color": [
+    {"component": "color-selector", "label": ""}
+  ],
+  "colorpicker": [
+    {"component": "color-selector", "label": ""}
+  ],
+  "tooltip": [
+    {"component": "tooltip", "label": ""}
+  ],
+  "tags input": [
+    {"component": "chip", "label": ""},
+    {"component": "input", "label": ""},
+    {"component": "button", "label": "Add Tag"}
+  ],
+  "warning": [
+    {"component": "banner", "label": ""}
+  ],
+  "banner": [
+    {"component": "banner", "label": ""}
+  ],
+  "badge": [
+    {"component": "badge", "label": ""}
+  ],
+  "flag": [
+    {"component": "flag", "label": ""}
+  ],
+  "icon": [
+    {"component": "icon", "label": ""}
+  ],
+  "pagination": [
+    {"component": "pagination", "label": ""}
+  ],
+  "call to action": [
+    {"component": "button", "label": "call"}
+  ],
+  "primary button": [
+    {"component": "button", "label": ""}
+  ],
+  "download": [
+    {"component": "button", "label": "Download"}
+  ],
+  "upload": [
+    {"component": "input", "label": "Choose file"},
+    {"component": "button", "label": "Upload"}
+  ],
+  "content-card": [
+    {"component": "content-card", "label": ""}
+  ],
+  "content": [
+    {"component": "content-card", "label": ""}
+  ],
+  "Widget": [
+    {"component": "content-card", "label": ""}
+  ],
+  "dialog": [
+    {"component": "dialog", "label": ""}
+  ],
+  "multiselect": [
+    {"component": "multiselect", "label": ""}
+  ],
+  "multi select": [
+    {"component": "multiselect", "label": ""}
+  ],
+  "combo box": [
+    {"component": "combobox", "label": ""}
+  ],
+  "combobox": [
+    {"component": "combobox", "label": ""}
+  ],
+  "boolean toggle": [
+    {"component": "switch", "label": ""}
+  ],
+  "switch": [
+    {"component": "switch", "label": ""}
+  ],
+  "radio group": [
+    {"component": "radio", "label": ""}
+  ],
+  "search": [
+    {"component": "input", "label": "Search"},
+    {"component": "button", "label": "Go"}
+  ],
+  "searchfield": [
+    {"component": "input", "label": "Search"},
+    {"component": "button", "label": "Go"}
+  ],
+  "editable table": [
+    {"component": "table", "label": ""},
+    {"component": "input", "label": "Edit"},
+    {"component": "button", "label": "Save"}
+  ],
+  "table with actions": [
+    {"component": "table", "label": ""},
+    {"component": "button", "label": "Action"}
+  ],
+  "dynamic table": [
+    {"component": "table", "label": ""},
+    {"component": "button", "label": "Add Row"},
+    {"component": "input", "label": "Filter"}
+  ],
+  "select country": [
+    {"component": "combobox", "label": "Country"}
+  ],
+  "select": [
+    {"component": "select", "label": ""}
+  ],
+  "dropdown-menu": [
+    {"component": "dropdown-menu", "label": ""}
+  ],
+  "checkbox": [
+    {"component": "checkbox", "label": "check for condition"}
+  ],
+  "one-time passcode": [
+    {"component": "input", "label": "Passcode"},
+    {"component": "button", "label": "Submit"}
+  ],
+  "drag and drop upload": [
+    {"component": "input", "label": "Drag files here"}
+  ],
+  "form with error": [
+    {"component": "input", "label": ""},
+    {"component": "button", "label": "Submit"},
+    {"component": "section-message", "label": "Error message"}
+  ],
+  "error message": [
+    {"component": "section-message", "label": "Error message"}
+  ],
+  "success message": [
+    {"component": "section-message", "label": "Success message"}
+  ],
+  "message": [
+    {"component": "section-message", "label": ""}
+  ],
+  "notification": [
+    {"component": "section-message", "label": "Notification"},
+    {"component": "button", "label": "Dismiss"}
+  ],
+  "responsive form": [
+    {"component": "input", "label": "Input field"},
+    {"component": "button", "label": "Submit"},
+    {"component": "content-card", "label": ""}
+  ],
+  "multi step form": [
+    {"component": "input", "label": "action"},
+    {"component": "input", "label": "action"},
+    {"component": "combobox", "label": "action"},
+    {"component": "multiselect", "label": "action"},
+    {"component": "button", "label": "next"}
+  ],
+  "wizard": [
+    {"component": "input", "label": "title"},
+    {"component": "input", "label": "label"},
+    {"component": "combobox", "label": "label"},
+    {"component": "multiselect", "label": "action"},
+    {"component": "button", "label": "save"},
+    {"component": "button", "label": "exit"},
+    {"component": "button", "label": "next"}
+  ],
+  "stepper": [
+    {"component": "input", "label": "title"},
+    {"component": "input", "label": "label"},
+    {"component": "combobox", "label": "label"},
+    {"component": "multiselect", "label": "action"},
+    {"component": "button", "label": "save"},
+    {"component": "button", "label": "exit"},
+    {"component": "button", "label": "next"}
+  ],
+  "full page form": [
+    {"component": "surface", "label": ""},
+    {"component": "input", "label": "action"},
+    {"component": "input", "label": "action"},
+    {"component": "combobox", "label": "action"},
+    {"component": "multiselect", "label": "action"},
+    {"component": "button", "label": "Submit"}
+  ],
+  "tabs": [
+    {"component": "tabs", "label": ""}
+  ],
+  "view": [
+    {"component": "tabs", "label": ""}
+  ],
+  "accordion": [
+    {"component": "accordion", "label": ""}
+  ],
+  "disclosure panel": [
+    {"component": "accordion", "label": ""}
+  ],
+  "modal": [
+    {"component": "dialog", "label": ""}
+  ],
+  "alert": [
+    {"component": "dialog", "label": ""}
+  ],
+  "alertdialog": [
+    {"component": "dialog", "label": ""}
+  ],
+  "toast": [
+    {"component": "dialog", "label": ""}
+  ],
+  "pop up": [
+    {"component": "dialog", "label": ""}
+  ],
+  "profile": [
+    {"component": "input", "label": "First name"},
+    {"component": "input", "label": "Last name"},
+    {"component": "input", "label": "Email"},
+    {"component": "button", "label": "Save Profile"}
+  ],
+  "reset password": [
+    {"component": "input", "label": "Email"},
+    {"component": "input", "label": "old Password"},
+    {"component": "input", "label": "New Password"},
+    {"component": "input", "label": "New Password Again"},
+    {"component": "button", "label": "Reset Password"}
+  ],
+  "dismiss": [
+    {"component": "button", "label": "Dismiss"}
+  ],
+  "submit": [
+    {"component": "button", "label": "Submit"}
+  ],
+  "submitting": [
+    {"component": "button", "label": "Submit"},
+    {"component": "progress", "label": ""}
+  ],
+  "save": [
+    {"component": "button", "label": "Save"}
+  ],
+  "saving": [
+    {"component": "button", "label": "Save"},
+    {"component": "progress", "label": ""}
+  ],
+  "cancel": [
+    {"component": "button", "label": "Cancel"}
+  ],
+  "delete": [
+    {"component": "button", "label": "Delete"}
+  ],
+  "address": [
+    {"component": "input", "label": "Street"},
+    {"component": "input", "label": "Apartment/Suite"},
+    {"component": "input", "label": "City"},
+    {"component": "combobox", "label": "State"},
+    {"component": "input", "label": "ZIP Code"},
+    {"component": "input", "label": "Phone"},
+    {"component": "combobox", "label": "Country"}
+  ],
+  "card": [
+    {"component": "input", "label": "Card Number"},
+    {"component": "input", "label": "Expiry"},
+    {"component": "input", "label": "CVC"},
+    {"component": "input", "label": "Cardholder Name"}
+  ],
+  "chat": [
+    {"component": "input", "label": "Type a message"},
+    {"component": "button", "label": "Send"},
+    {"component": "dialog", "label": ""}
+  ],
+  "forms": [
+    {"component": "input", "label": "Field"},
+    {"component": "button", "label": "Submit"},
+    {"component": "section-message", "label": "Message"}
+  ],
+  "footer": [
+    {"component": "footer", "label": ""}
+  ],
+  "link": [
+    {"component": "link", "label": ""}
+  ],
+  "anchor": [
+    {"component": "anchor-link-menu", "label": ""}
+  ],
+  "avatar": [
+    {"component": "avatar", "label": ""}
+  ],
+  "chip": [
+    {"component": "chip", "label": ""}
+  ],
+  "divider": [
+    {"component": "divider", "label": ""}
+  ],
+  "separate": [
+    {"component": "divider", "label": ""}
+  ],
+  "horizontal line": [
+    {"component": "divider", "label": ""}
+  ],
+  "listbox": [
+    {"component": "listbox", "label": ""}
+  ],
+  "toggle": [
+    {"component": "toggle-button", "label": ""}
+  ],
+  "toggleswitch": [
+    {"component": "switch", "label": ""}
+  ],
+  "Messaging": [
+    {"component": "section-message", "label": ""}
+  ]
+}
