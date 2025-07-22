@@ -50,7 +50,16 @@ This app uses **Render free tier** for the backend, which may **sleep after 15 m
 - Skips full JSX validation—if parsing fails, shows `"/* TODO: JSX not parsed */"`.
 
 ---
+## 🧪 How to Test
 
+💡 You can freely combine any official component names listed at https://design.visa.com/components/ as natural language prompts (e.g., "input", "banner", "avatar", "chips", "Combobox", "Flag", etc, or combinations like "form with input, toggle button, tooltip, and submit button").
+
+Try prompts like:
+- `Create a signup flow with name, email, password, confirm password, agree terms`
+- `Dashboard with a tabs and save cancel button and date and color`
+- `Navigation bar with breadcrumb and a search field`
+
+---
 ## 💡 Future Improvements
 
 With more time, I would:
