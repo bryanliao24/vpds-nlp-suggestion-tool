@@ -28,7 +28,8 @@ COMPONENT_FILE_MAP: dict[str, str] = json.loads(
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],   # Vite dev server
+    # allow_origins=["http://localhost:5173"],   # Vite dev server
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
