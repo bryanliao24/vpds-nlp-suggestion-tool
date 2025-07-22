@@ -23,6 +23,9 @@ import './App.css';
 import detailMeta   from './components_detail_meta.json';
 import defaultFiles from './default_component_files_updated.json';
 
+/* ---------------------- Backend API Portal ------------------------------ */
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 /* -------------------------------- Helpers ------------------------------ */
 const stripImportsExports = raw => {
   const removed = [];
@@ -146,7 +149,7 @@ export default function App() {
     setAssembledCode('');
 
     try {
-      const res = await fetch('http://localhost:8000/suggest', {
+      const res = await fetch(`${API_BASE}/suggest`, {
         method : 'POST',
         headers: { 'Content-Type':'application/json' },
         body   : JSON.stringify({ prompt }),
@@ -196,7 +199,7 @@ export default function App() {
   const handleAssemble = async () => {
     if (!Object.keys(variantSel).length) return;
     try {
-      const res  = await fetch('http://localhost:8000/assemble', {
+      const res  = await fetch(`${API_BASE}/assemble`, {
         method : 'POST',
         headers: { 'Content-Type':'application/json' },
         body   : JSON.stringify({
