@@ -33,6 +33,12 @@ This project is a full-stack UI component suggestion tool that accepts natural l
   - Frontend: [`vpds-nlp-suggestion-tool.vercel.app`](https://vpds-nlp-suggestion-tool.vercel.app)
   - Backend: [`vpds-nlp-suggestion-tool-backend.onrender.com`](https://vpds-nlp-suggestion-tool-backend.onrender.com/docs#/)
 
+## ⚠️ Render Cold Start Note
+
+This app uses **Render free tier** for the backend, which may **sleep after 15 minutes of inactivity**. As a result:
+
+🕒 **The first request may take ~30–60 seconds** to wake up the server.  
+
 ---
 
 ## ⚙️ Assumptions / Shortcuts
